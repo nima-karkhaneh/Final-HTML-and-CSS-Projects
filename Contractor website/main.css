@@ -1,0 +1,336 @@
+/*RESET*/
+html, body, header, footer, table, tr, th, td, h1, h2, h3, h4, figure, p, nav, section, div, a, ol, li{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*header styling*/
+
+header{
+    width: 100%;
+    margin: 3rem 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+header div{
+    width: 80%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+header nav{
+    text-align: center;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    margin-top: 1rem;
+}
+header h1{
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #484848;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+header a{
+    font-family:Raleway, sans-serif;
+    color: #484848;
+    background-color: #f6f6f6;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.4rem;
+    border-radius: 20%;
+    font-size: 0.8rem;
+}
+header a:hover{
+    background-color: #ecebeb;
+}
+
+.line{
+    border: 1px solid #e1e1e1;
+    width: 200px;
+}
+
+/*Top image Styling*/
+
+.top-image{
+    height: 600px;
+    width: 100%;
+    background-image: url("fam_blur.jpg");
+    background-size: cover;
+    background-position: center 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    padding: 70px 70px;
+}
+
+.top-image div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 60%;
+    width: 500px;
+}
+.top-image h2{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Alice', serif;
+    font-size: 3.5rem;
+}
+.top-image p{
+    font-family: 'Open sans', sans-serif;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 35px;
+}
+
+/*sections and articles*/
+
+section{
+    display: flex;
+    justify-content: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+}
+section h3{
+    font-family: 'Alice', 'serif';
+    font-weight: normal;
+    color: #484848;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin: 10px 0;
+}
+section h4{
+    font-family: 'Alice', 'serif';
+    font-weight: normal;
+    color: #484848;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 5px 0;
+}
+p{
+    font-family: Raleway, sans-serif;
+    font-size: 1rem;
+    max-width: 1000px;
+    color: #8e8e8e;
+    text-align: left;
+}
+.radon-entry{
+    display: flex;
+    flex-direction: column;
+}
+aside{
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+aside div{
+    margin-left: 50px ;
+}
+ol{
+    height: 100%;
+    margin-left: 10px;
+}
+li{
+    font-size: 1rem;
+    font-family:Raleway, sans-serif;
+    color: #8e8e8e;
+    line-height: 30px;
+}
+
+/*table styling*/
+
+table{
+    border-collapse: collapse;
+    border: 1px solid rgb(160 160 160);
+    font-size: 0.8rem;
+    font-family:Raleway, sans-serif;
+}
+caption{
+    caption-side: bottom;
+    text-align: left;
+    border: 1px solid rgb(100, 100, 100);
+}
+th, td {
+    border: 1px solid rgb(100, 100, 100);
+    padding: 10px 10px;
+    text-align: left;
+}
+thead tr:first-child{
+    background-color: #9f9f9f;
+}
+tr:nth-child(odd){
+    background-color: #b0b0b0;
+}
+
+/*bottom-image styling*/
+
+.bottom-image{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./us_left_web_30.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 30%;
+    width: 100%;
+    height: 600px;
+}
+.bottom-image div{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.bottom-image h4{
+    font-family: 'Alice', 'serif';
+    font-size: 3.5rem;
+    color: whitesmoke;
+}
+.bottom-image p{
+    color: whitesmoke;
+    font-size: 1rem ;
+
+}
+.contact-info{
+    color: red;
+    font-size: 2.5rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 30px 0 40px 0;
+}
+.contact-info h4{
+    color: red;
+    font-size: 2rem;
+    text-align: center;
+}
+.contact-info a{
+    font-size: 1.5rem;
+    color: red;
+    margin: 10px 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+/*test button styling*/
+
+.test-btn{
+    background-color: red;
+    text-decoration: none;
+    width: 15rem;
+    padding: 0.5rem;
+    display:  block;
+    font-size: 1rem;
+    text-align: center;
+    font-family:Raleway, sans-serif;
+    text-transform: uppercase;
+    color: whitesmoke;
+    margin: 2rem auto;
+}
+.test-btn:hover{
+    background-color: rgb(155, 176, 88);
+}
+
+/*source of information styling*/
+
+.info-source{
+    color: #8e8e8e;
+    background-color: white;
+    text-align: right;
+    font-size: 0.8rem;
+    text-transform: revert;
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+
+}
+.info-source:hover{
+    color: blue;
+    background-color: white;
+}
+
+/*line separator between sections*/
+
+.section-separator{
+    width: 70%;
+    border: 1px solid #c0c0c0;
+    margin: 30px auto;
+}
+
+/*footer styling*/
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    align-items: center;
+    font-size: 1.3rem;
+}
+footer p{
+    color: black;
+    text-align: center;
+    font: inherit;
+    font-size: 1.2rem;
+    margin: 0;
+}
+footer a{
+    text-decoration: none;
+    color: blue;
+    font-size: 1rem;
+}
+
+/*media queries*/
+
+@media (max-width: 768px) {
+    #top-photo{
+        background-image: url("./fam_blur_under_600_web_medium.jpg");
+    }
+    .bottom-image{
+        background-image: url("./us_16_9_smaller_web_30.jpg");
+    }
+}
+@media (max-width: 800px){
+    .line{
+        display: none;
+    }
+
+}
+@media (max-width:760px){
+    img{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
