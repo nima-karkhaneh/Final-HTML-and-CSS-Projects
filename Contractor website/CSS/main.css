@@ -63,7 +63,7 @@ header a:hover{
 .top-image{
     height: 600px;
     width: 100%;
-    background-image: url("fam_blur.jpg");
+    background-image: url("../Images/fam_blur.jpg");
     background-size: cover;
     background-position: center 30%;
     display: flex;
@@ -188,7 +188,7 @@ tr:nth-child(odd){
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    background-image: url("./us_left_web_30.jpg");
+    background-image: url("../Images/us_left_web_30.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center 30%;
@@ -307,10 +307,10 @@ footer a{
 
 @media (max-width: 768px) {
     #top-photo{
-        background-image: url("./fam_blur_under_600_web_medium.jpg");
+        background-image: url("../Images/fam_blur_under_600_web_medium.jpg");
     }
     .bottom-image{
-        background-image: url("./us_16_9_smaller_web_30.jpg");
+        background-image: url("../Images/us_16_9_smaller_web_30.jpg");
     }
 }
 @media (max-width: 800px){
